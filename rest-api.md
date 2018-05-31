@@ -267,7 +267,7 @@ NONE
 {}
 ```
 
-### Check server time
+### 检查服务器时间
 ```
 GET /api/v1/time
 ```
