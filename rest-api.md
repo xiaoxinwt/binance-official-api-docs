@@ -432,7 +432,7 @@ Get older trades.
 **Weight:**
 5
 
-**Parameters:**
+**参数:**
 
 Name | Type | Mandatory | Description
 ------------ | ------------ | ------------ | ------------
