@@ -254,7 +254,7 @@ m -> minutes; h -> hours; d -> days; w -> weeks; M -> months
 ```
 GET /api/v1/ping
 ```
-Test connectivity to the Rest API.
+测试到Rest API的连通性.
 
 **Weight:**
 1
