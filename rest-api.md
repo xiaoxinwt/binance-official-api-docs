@@ -69,8 +69,7 @@ MARKET_DATA | 端点要求传递有效的 API-Key.
   `request body`.
 
 ## 时间戳安全
-* A `SIGNED` endpoint also requires a parameter, `timestamp`, to be sent which
-  should be the millisecond timestamp of when the request was created and sent.
+* `SIGNED`类端点还要有有一个`timestamp`参数, 用来标记请求被创建和发送的时间毫秒数
 * An additional parameter, `recvWindow`, may be sent to specific the number of
   milliseconds after `timestamp` the request is valid for. If `recvWindow`
   is not sent, **it defaults to 5000**.
