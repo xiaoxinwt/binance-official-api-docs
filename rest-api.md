@@ -173,7 +173,7 @@ timestamp | 1499827319559
 
 
 ## 枚举类型
-**Symbol status:**
+**Symbol 状态:**
 
 * PRE_TRADING
 * TRADING
