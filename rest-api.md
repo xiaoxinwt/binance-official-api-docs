@@ -1,7 +1,7 @@
 # 发布时间 (2018-01-14)
 # 通用的 API 信息
-* The base endpoint is: **https://api.binance.com**
-* All endpoints return either a JSON object or array.
+* 端点地址: **https://api.binance.com**
+* 所有的端点都将返回 JSON 对象或 JSON 数组.
 * Data is returned in **ascending** order. Oldest first, newest last.
 * All time and timestamp related fields are in milliseconds.
 * HTTP `4XX` return codes are used for for malformed requests;
