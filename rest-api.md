@@ -187,7 +187,7 @@ timestamp | 1499827319559
 
 * SPOT
 
-**Order status:**
+**订单状态:**
 
 * NEW
 * PARTIALLY_FILLED
@@ -197,7 +197,7 @@ timestamp | 1499827319559
 * REJECTED
 * EXPIRED
 
-**Order types:**
+**订单类型:**
 
 * LIMIT
 * MARKET
@@ -207,7 +207,7 @@ timestamp | 1499827319559
 * TAKE_PROFIT_LIMIT
 * LIMIT_MAKER
 
-**Order side:**
+**订单动作:**
 
 * BUY
 * SELL
