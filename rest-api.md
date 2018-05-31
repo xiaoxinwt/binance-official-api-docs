@@ -131,7 +131,7 @@ timestamp | 1499827319559
 
 ### Example 2: 通过请求体
 * **requestBody:** symbol=LTCBTC&side=BUY&type=LIMIT&timeInForce=GTC&quantity=1&price=0.1&recvWindow=5000&timestamp=1499827319559
-* **HMAC SHA256 signature:**
+* **HMAC SHA256 签名:**
 
     ```
     [linux]$ echo -n "symbol=LTCBTC&side=BUY&type=LIMIT&timeInForce=GTC&quantity=1&price=0.1&recvWindow=5000&timestamp=1499827319559" | openssl dgst -sha256 -hmac "NhqPtmdSJYdKjVHjA7PZj4Mge3R5YNiP1e3UZjInClVN65XAbvqqM6A7H5fATj0j"
@@ -139,7 +139,7 @@ timestamp | 1499827319559
     ```
 
 
-* **curl command:**
+* **curl 命令:**
 
     ```
     (HMAC SHA256)
