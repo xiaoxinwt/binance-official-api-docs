@@ -6,7 +6,7 @@
 * 字段中凡有涉及到time或timestamp的单位都是毫秒
 * HTTP `4XX` 返回码用在异常的请求;
   the issue is on the sender's side.
-* HTTP `429` return code is used when breaking a request rate limit.
+* HTTP `429` 当请求频率超出限制时被返回
 * HTTP `418` return code is used when an IP has been auto-banned for continuing to send requests after receiving `429` codes.
 * HTTP `5XX` return codes are used for internal errors; the issue is on
   Binance's side.
