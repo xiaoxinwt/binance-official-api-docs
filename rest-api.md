@@ -26,7 +26,7 @@
 * 对于 `POST`, `PUT`, 和 `DELETE` 类型的端点, 参数可以通过
   `query string` 或在 `request body` 中比并将类型设置为
   `application/x-www-form-urlencoded`. 也可以将两者混合使用
-* Parameters may be sent in any order.
+* 任一请求中都要传递参数
 * If a parameter sent in both the `query string` and `request body`, the
   `query string` parameter will be used.
 
