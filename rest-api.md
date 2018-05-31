@@ -13,7 +13,7 @@
 
 牢记，这种情况下**不要去**交易，因为可能交易成功了但是执行状态返回的是**UNKNOWN**
 
-* Any endpoint can retun an ERROR; the error payload is as follows:
+* 任一个端点都可能会返回错误; 错误信息形式如下:
 ```javascript
 {
   "code": -1121,
