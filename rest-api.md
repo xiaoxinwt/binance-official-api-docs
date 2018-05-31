@@ -51,11 +51,11 @@
 
 安全类型 | 描述
 ------------ | ------------
-NONE | Endpoint can be accessed freely.
-TRADE | Endpoint requires sending a valid API-Key and signature.
-USER_DATA | Endpoint requires sending a valid API-Key and signature.
-USER_STREAM | Endpoint requires sending a valid API-Key.
-MARKET_DATA | Endpoint requires sending a valid API-Key.
+NONE | 端点可被自由使用
+TRADE | 端点要求传递有效的 API-Key and signature.
+USER_DATA | 端点要求传递有效的 API-Key and signature.
+USER_STREAM | 端点要求传递有效的 API-Key.
+MARKET_DATA | 端点要求传递有效的 API-Key.
 
 
 * `TRADE` and `USER_DATA` endpoints are `SIGNED` endpoints.
