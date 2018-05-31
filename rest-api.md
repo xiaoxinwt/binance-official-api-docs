@@ -10,8 +10,9 @@
 * HTTP `418` 用于当已接收到`429`码后该IP地址在此发送请求后触发
 * HTTP `5XX` 当币安服务器发生内部错误时
 * HTTP `504` 使用API成功发送请求，但在指定的时间范围内没有得到响应
-It is important to **NOT** treat this as a failure; the execution status is
-**UNKNOWN** and could have been a success.
+
+牢记，这种情况下**不要去**交易，因为可能交易成功了但是执行状态返回的是**UNKNOWN**
+
 * Any endpoint can retun an ERROR; the error payload is as follows:
 ```javascript
 {
