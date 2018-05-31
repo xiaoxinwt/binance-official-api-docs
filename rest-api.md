@@ -238,7 +238,7 @@ m -> minutes; h -> hours; d -> days; w -> weeks; M -> months
 * 1w
 * 1M
 
-**Rate limiters (rateLimitType)**
+**频率限制类型 (rateLimitType)**
 
 * REQUESTS
 * ORDERS
