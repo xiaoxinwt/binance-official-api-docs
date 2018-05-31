@@ -423,7 +423,7 @@ limit | INT | NO | Default 500; max 500.
 ]
 ```
 
-### Old trade lookup (MARKET_DATA)
+### 历史订单查询 (MARKET_DATA)
 ```
 GET /api/v1/historicalTrades
 ```
