@@ -259,10 +259,10 @@ GET /api/v1/ping
 **Weight:**
 1
 
-**Parameters:**
+**参数:**
 NONE
 
-**Response:**
+**响应:**
 ```javascript
 {}
 ```
