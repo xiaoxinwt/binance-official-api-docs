@@ -38,7 +38,7 @@
 * **Repeatedly violating rate limits and/or failing to back off after receiving 429s will result in an automated IP ban (http status 418).**
 * IP bans are tracked and **scale in duration** for repeat offenders, **from 2 minutes to 3 days**.
 
-# Endpoint security type
+# 端点的安全类型
 * Each endpoint has a security type that determines the how you will
   interact with it.
 * API-keys are passed into the Rest API via the `X-MBX-APIKEY`
@@ -49,7 +49,7 @@
  can access everything except for TRADE routes.
 * By default, API-keys can access all secure routes.
 
-Security Type | Description
+安全类型 | 描述
 ------------ | ------------
 NONE | Endpoint can be accessed freely.
 TRADE | Endpoint requires sending a valid API-Key and signature.
