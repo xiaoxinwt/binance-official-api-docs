@@ -172,7 +172,7 @@ timestamp | 1499827319559
 * `quoate asset` refers to the asset that is the `price` of a symbol.
 
 
-## ENUM definitions
+## 枚举类型
 **Symbol status:**
 
 * PRE_TRADING
