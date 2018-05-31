@@ -243,7 +243,7 @@ m -> minutes; h -> hours; d -> days; w -> weeks; M -> months
 * REQUESTS
 * ORDERS
 
-**Rate limit intervals**
+**频率限制时间间隔**
 
 * SECOND
 * MINUTE
