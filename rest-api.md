@@ -290,7 +290,7 @@ NONE
 ```
 GET /api/v1/exchangeInfo
 ```
-搅和交易规则和sybmol信息
+获取交易规则和sybmol信息
 
 **Weight:**
 1
