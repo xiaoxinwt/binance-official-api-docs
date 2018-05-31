@@ -402,7 +402,7 @@ Get recent trades (up to last 500).
 **Weight:**
 1
 
-**Parameters:**
+**参数:**
 
 Name | Type | Mandatory | Description
 ------------ | ------------ | ------------ | ------------
