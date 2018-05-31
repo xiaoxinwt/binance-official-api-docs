@@ -348,7 +348,7 @@ NONE
 ```
 
 ## 市场数据相关的端点
-### Order book
+### 订单订阅
 ```
 GET /api/v1/depth
 ```
