@@ -218,7 +218,7 @@ timestamp | 1499827319559
 * IOC
 * FOK
 
-**Kline/Candlestick chart intervals:**
+**K线/Tick 图表 intervals:**
 
 m -> minutes; h -> hours; d -> days; w -> weeks; M -> months
 
