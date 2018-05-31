@@ -112,7 +112,7 @@ recvWindow | 5000
 timestamp | 1499827319559
 
 
-### Example 1: 查询字符串
+### Example 1: 查询请求
 * **queryString:** symbol=LTCBTC&side=BUY&type=LIMIT&timeInForce=GTC&quantity=1&price=0.1&recvWindow=5000&timestamp=1499827319559
 * **HMAC SHA256 signature:**
 
