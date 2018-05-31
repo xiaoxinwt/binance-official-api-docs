@@ -72,7 +72,7 @@ MARKET_DATA | 端点要求传递有效的 API-Key.
 * `SIGNED`类端点还要有有一个`timestamp`参数, 用来标记请求被创建和发送的时间毫秒数
 * 额外的参数`recvWindow`被用于`timestamp`之后，用于发送毫秒数用来标记请求的有效时间.
   如果不发送`recvWindow`参数，则**默认5000**.
-* The logic is as follows:
+* 逻辑处理如下:
   ```javascript
   if (timestamp < (serverTime + 1000) && (serverTime - timestamp) <= recvWindow) {
     // process request
