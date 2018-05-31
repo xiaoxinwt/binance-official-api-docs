@@ -30,7 +30,7 @@
 * 如果同一参数在 `query string` 和 `request body`中被同时传递了，则以
   `query string` 中的为准
 
-# LIMITS
+# 限制
 * The `/api/v1/exchangeInfo` `rateLimits` array contains objects related to the exchange's `REQUESTS` and `ORDER` rate limits.
 * A 429 will be returned when either rather limit is violated.
 * Each route has a `weight` which determines for the number of requests each endpoint counts for. Heavier endpoints and endpoints that do operations on multiple symbols will have a heavier `weight`.
