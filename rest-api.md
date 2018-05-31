@@ -290,7 +290,7 @@ NONE
 ```
 GET /api/v1/exchangeInfo
 ```
-Current exchange trading rules and symbol information
+搅和交易规则和sybmol信息
 
 **Weight:**
 1
