@@ -347,7 +347,7 @@ NONE
 }
 ```
 
-## Market Data endpoints
+## 市场数据相关的端点
 ### Order book
 ```
 GET /api/v1/depth
