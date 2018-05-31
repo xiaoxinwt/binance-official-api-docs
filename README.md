@@ -8,7 +8,7 @@
 ------------ | ------------ 
 [rest-api.md](rest-api.md) | Rest API的用法 (/api)
 [errors.md](errors.md) | Rest API使用中可能出现的错误信息的详细介绍
-[web-socket-streams.md](web-socket-streams.md) | Details on available streams and payloads
+[web-socket-streams.md](web-socket-streams.md) | 可获取的流与payloads的详细信息
 user-data-stream.md | Details on the dedicated account stream
 wapi-api.md | Details on the Withdrawal API (/wapi)
 
