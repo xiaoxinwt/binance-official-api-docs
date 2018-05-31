@@ -21,7 +21,7 @@
 }
 ```
 
-* Specific error codes and messages defined in another document.
+* 关于错误代码和错误信息的定义请参见[错误信息](errors.md)
 * For `GET` endpoints, parameters must be sent as a `query string`.
 * For `POST`, `PUT`, and `DELETE` endpoints, the parameters may be sent as a
   `query string` or in the `request body` with content type
