@@ -363,7 +363,7 @@ Limit | Weight
 500 | 5
 1000 | 10
 
-**Parameters:**
+**参数:**
 
 Name | Type | Mandatory | Description
 ------------ | ------------ | ------------ | ------------
