@@ -92,8 +92,7 @@ server.
 
 
 ## POST方式的签名类端点示例：/api/v1/order
-Here is a step-by-step example of how to send a vaild signed payload from the
-Linux command line using `echo`, `openssl`, and `curl`.
+接下来将逐步演示如何从Linux终端中使用`echo`,`openssl`和`curl`命令来，发送一个有效的签名payload
 
 Key | Value
 ------------ | ------------
