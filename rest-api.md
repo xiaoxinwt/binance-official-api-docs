@@ -61,8 +61,7 @@ MARKET_DATA | 端点要求传递有效的 API-Key.
 * `TRADE` 和 `USER_DATA` 端点要求签名 `SIGNED`.
 
 # 签名 (TRADE and USER_DATA) 端点安全
-* `SIGNED` endpoints require an additional parameter, `signature`, to be
-  sent in the  `query string` or `request body`.
+* `SIGNED` 类型的端点要求加一个额外的参数:`signature`到`query string`或`request body`中.
 * Endpoints use `HMAC SHA256` signatures. The `HMAC SHA256 signature` is a keyed `HMAC SHA256` operation.
   Use your `secretKey` as the key and `totalParams` as the value for the HMAC operation.
 * The `signature` is **not case sensitive**.
