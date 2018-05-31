@@ -4,7 +4,7 @@
 * 所有的端点都将返回 JSON 对象或 JSON 数组.
 * 使用**异步**方式调用时，数据返回的顺序为“后进先出”
 * 字段中凡有涉及到time或timestamp的单位都是毫秒
-* HTTP `4XX` return codes are used for for malformed requests;
+* HTTP `4XX` 返回码用在异常的请求;
   the issue is on the sender's side.
 * HTTP `429` return code is used when breaking a request rate limit.
 * HTTP `418` return code is used when an IP has been auto-banned for continuing to send requests after receiving `429` codes.
