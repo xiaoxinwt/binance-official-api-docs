@@ -27,8 +27,8 @@
   `query string` 或在 `request body` 中比并将类型设置为
   `application/x-www-form-urlencoded`. 也可以将两者混合使用
 * 任一请求中都要传递参数
-* If a parameter sent in both the `query string` and `request body`, the
-  `query string` parameter will be used.
+* 如果同一参数在 `query string` 和 `request body`中被同时传递了，则以
+  `query string` 中的为准
 
 # LIMITS
 * The `/api/v1/exchangeInfo` `rateLimits` array contains objects related to the exchange's `REQUESTS` and `ORDER` rate limits.
