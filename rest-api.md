@@ -7,9 +7,8 @@
 * HTTP `4XX` 返回码用在异常的请求;
   the issue is on the sender's side.
 * HTTP `429` 当请求频率超出限制时被返回
-* HTTP `418` return code is used when an IP has been auto-banned for continuing to send requests after receiving `429` codes.
-* HTTP `5XX` return codes are used for internal errors; the issue is on
-  Binance's side.
+* HTTP `418` 用于当已接收到`429`码后该IP地址在此发送请求后触发
+* HTTP `5XX` 当币安服务器发生内部错误时
 * HTTP `504` return code is used when the API successfully sent the message
 but not get a response within the timeout period.
 It is important to **NOT** treat this as a failure; the execution status is
