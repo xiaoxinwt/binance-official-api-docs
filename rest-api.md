@@ -2,7 +2,7 @@
 # 通用的 API 信息
 * 端点地址: **https://api.binance.com**
 * 所有的端点都将返回 JSON 对象或 JSON 数组.
-* Data is returned in **ascending** order. Oldest first, newest last.
+* 使用**异步**方式调用时，数据返回的顺序为“后进先出”
 * All time and timestamp related fields are in milliseconds.
 * HTTP `4XX` return codes are used for for malformed requests;
   the issue is on the sender's side.
