@@ -91,7 +91,7 @@ server.
 **强烈建议recvWindow参数设置为不超过5000!**
 
 
-## POST方式的签名类端点示例： /api/v1/order
+## POST方式的签名类端点示例：/api/v1/order
 Here is a step-by-step example of how to send a vaild signed payload from the
 Linux command line using `echo`, `openssl`, and `curl`.
 
