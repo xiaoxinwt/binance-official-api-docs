@@ -70,9 +70,8 @@ MARKET_DATA | 端点要求传递有效的 API-Key.
 
 ## 时间戳安全
 * `SIGNED`类端点还要有有一个`timestamp`参数, 用来标记请求被创建和发送的时间毫秒数
-* An additional parameter, `recvWindow`, may be sent to specific the number of
-  milliseconds after `timestamp` the request is valid for. If `recvWindow`
-  is not sent, **it defaults to 5000**.
+* 额外的参数`recvWindow`被用于`timestamp`之后，用于发送毫秒数用来标记请求的有效时间.
+  If `recvWindow` is not sent, **it defaults to 5000**.
 * The logic is as follows:
   ```javascript
   if (timestamp < (serverTime + 1000) && (serverTime - timestamp) <= recvWindow) {
