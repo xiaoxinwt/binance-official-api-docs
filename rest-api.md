@@ -122,7 +122,7 @@ timestamp | 1499827319559
     ```
 
 
-* **curl command:**
+* **curl 命令:**
 
     ```
     (HMAC SHA256)
