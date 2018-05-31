@@ -271,7 +271,7 @@ NONE
 ```
 GET /api/v1/time
 ```
-Test connectivity to the Rest API and get the current server time.
+测试到Rest API的连通性，并获取服务器时间
 
 **Weight:**
 1
