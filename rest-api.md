@@ -393,7 +393,7 @@ limit | INT | NO | Default 100; max 1000. Valid limits:[5, 10, 20, 50, 100, 500,
 }
 ```
 
-### Recent trades list
+### 最近的订单列表(返回前500条)
 ```
 GET /api/v1/trades
 ```
