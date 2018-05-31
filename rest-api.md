@@ -88,7 +88,7 @@ processed within a certain number of milliseconds or be rejected by the
 server.
 
 
-**Tt recommended to use a small recvWindow of 5000 or less!**
+**强烈建议recvWindow参数设置为不超过5000!**
 
 
 ## SIGNED Endpoint Examples for POST /api/v1/order
