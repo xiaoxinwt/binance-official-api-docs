@@ -68,7 +68,7 @@ MARKET_DATA | 端点要求传递有效的 API-Key.
 * `totalParams` is defined as the `query string` concatenated with the
   `request body`.
 
-## Timing security
+## 时间戳安全
 * A `SIGNED` endpoint also requires a parameter, `timestamp`, to be sent which
   should be the millisecond timestamp of when the request was created and sent.
 * An additional parameter, `recvWindow`, may be sent to specific the number of
