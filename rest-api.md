@@ -167,7 +167,7 @@ timestamp | 1499827319559
 请注意示例3中的签名的不同是因为此处没有"GTC"和"quantity=1"
 
 # 公共API端口
-## Terminology
+## 术语
 * `base asset` refers to the asset that is the `quantity` of a symbol.
 * `quoate asset` refers to the asset that is the `price` of a symbol.
 
