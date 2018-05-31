@@ -165,8 +165,6 @@ timestamp | 1499827319559
     ```
 
 请注意示例3中的签名的不同是因为此处没有"GTC"和"quantity=1"
-Note that the signature is different in example 3.
-There is no & between "GTC" and "quantity=1".
 
 # Public API Endpoints
 ## Terminology
