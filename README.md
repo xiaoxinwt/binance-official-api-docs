@@ -1,7 +1,7 @@
 # Binance APIs 和 Streams的官方文档.
 * Binance APIs和Streams官方文档的修改，废弃等信息都会在电报群中发布: **https://t.me/binance_api_announcements**
 * 在本资源中的流，端点，参数，payloads等都被认为是**官方**的且**受支持**的.
-* The use of any other streams, endpoints, parameters, or payloads, etc. is **not supported**; **use them at your own risk and with no guarantees.**
+* 其他来源的流，端点，参数或payloads等都是不被**支持的**，**使用它们需要自担风险**
 
 
 Name | Description
