@@ -249,7 +249,7 @@ m -> minutes; h -> hours; d -> days; w -> weeks; M -> months
 * MINUTE
 * DAY
 
-## General endpoints
+## 通用端点
 ### Test connectivity
 ```
 GET /api/v1/ping
