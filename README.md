@@ -4,7 +4,7 @@
 * 其他来源的流，端点，参数或payloads等都是不被**支持的**，**使用它们需要自担风险**。
 
 
-Name | Description
+名称 | 描述
 ------------ | ------------ 
 rest-api.md | Details on the Rest API (/api)
 errors.md | Descriptions of possible error messages from the Rest API
