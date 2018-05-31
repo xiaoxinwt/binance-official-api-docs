@@ -21,8 +21,8 @@
 }
 ```
 
-* 关于错误代码和错误信息的定义请参见:[错误信息](errors.md)
-* For `GET` endpoints, parameters must be sent as a `query string`.
+* 关于错误代码和错误信息的定义请参见[错误信息](errors.md)
+* 对于 `GET` 类型的端点, 参数必须通过 `query string`.
 * For `POST`, `PUT`, and `DELETE` endpoints, the parameters may be sent as a
   `query string` or in the `request body` with content type
   `application/x-www-form-urlencoded`. You may mix parameters between both the
