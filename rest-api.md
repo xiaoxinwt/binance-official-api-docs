@@ -58,9 +58,9 @@ USER_STREAM | 端点要求传递有效的 API-Key.
 MARKET_DATA | 端点要求传递有效的 API-Key.
 
 
-* `TRADE` and `USER_DATA` endpoints are `SIGNED` endpoints.
+* `TRADE` 和 `USER_DATA` 端点要求签名 `SIGNED`.
 
-# SIGNED (TRADE and USER_DATA) Endpoint security
+# 签名 (TRADE and USER_DATA) 端点安全
 * `SIGNED` endpoints require an additional parameter, `signature`, to be
   sent in the  `query string` or `request body`.
 * Endpoints use `HMAC SHA256` signatures. The `HMAC SHA256 signature` is a keyed `HMAC SHA256` operation.
