@@ -286,7 +286,7 @@ NONE
 }
 ```
 
-### Exchange information
+### 交换信息
 ```
 GET /api/v1/exchangeInfo
 ```
