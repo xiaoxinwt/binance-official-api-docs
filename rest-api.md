@@ -218,7 +218,7 @@ timestamp | 1499827319559
 * IOC
 * FOK
 
-**K线/Tick 图表 intervals:**
+**K线/Tick 图表 时间间隔:**
 
 m -> minutes; h -> hours; d -> days; w -> weeks; M -> months
 
