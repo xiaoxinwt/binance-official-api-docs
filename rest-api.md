@@ -250,7 +250,7 @@ m -> minutes; h -> hours; d -> days; w -> weeks; M -> months
 * DAY
 
 ## 通用端点
-### Test connectivity
+### 测试连通性
 ```
 GET /api/v1/ping
 ```
